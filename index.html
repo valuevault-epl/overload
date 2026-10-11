@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Overload</title>
+<meta name="description" content="Gym log for sets and reps, with lift-by-lift progress charts, a weekly plan and consistency streaks.">
+<meta name="theme-color" content="#ECEFF3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1116" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Overload">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Barlow:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="root">
+  <div class="app">
+    <header class="top"><div class="brand">Overload</div></header>
+    <div class="phead"><span class="eyebrow">Loading</span><h1 class="title">Your lift log</h1><p class="lede">Opening your workouts, plan and progress.</p></div>
+  </div>
+</div>
+<noscript><p style="padding:16px">Overload needs JavaScript turned on.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/preact/10.23.1/preact.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/preact/10.23.1/hooks.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/htm/3.1.1/htm.umd.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
